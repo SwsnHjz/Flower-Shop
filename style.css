@@ -192,4 +192,60 @@ footer {
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  .top-bar {
+    flex-direction: column; 
+    padding: 1rem;
+  }
+  .nav ul {
+    gap: 15px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+  .nav a {
+    padding: 6px 10px; 
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 600px) {
+  .flowers-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 15px;
+    padding: 10px;
+  }
+  .image-wrapper {
+    height: 200px; 
+  }
+}
+@media (max-width: 600px) {
+   .hero {
+    background-position: 60% center; 
+    background-size: cover;
+    height: 100vh; 
+  }
+  .tagline {
+    position: static; 
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .contact-page {
+    background-position: 60% center; 
+  }
+  .contact-info {
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    width: auto;
+  }
+}
+
+.desc, .overlay {
+  word-break: break-word; 
+  padding: 8px;
+  font-size: 0.9rem;
+}
+
 
